@@ -9,10 +9,10 @@ public class AutomobileElectricite extends Automobile{
     @Override
     public void affichageCaracteristique() {
         System.out.println("" +
-                "\"AutomobileElectricite{\" +\n" +
-                "                \"modele='\" + modele + '\\'' +\n" +
-                "                \", puissance=\" + puissance +\n" +
-                "                \", espace=\" + espace +\n" +
+                "AutomobileElectricite{\"+\n" +
+                "                \"modele: "+super.modele+"\n" +
+                "                \"puissance: "+super.puissance +"\n" +
+                "                \"espace: "+super.espace +"\n" +
                 "                '}'");
     }
 }

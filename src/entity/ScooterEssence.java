@@ -9,9 +9,9 @@ public class ScooterEssence extends Scooter{
     public void affichageCaracteristique() {
         System.out.println("" +
                 "\"ScooterEssence{\" +\n" +
-                "                \"modele='\" + modele + '\\'' +\n" +
-                "                \", couleur='\" + couleur + '\\'' +\n" +
-                "                \", puissance=\" + puissance +\n" +
+                "                modele: "+super.modele+"\n" +
+                "                couleur: "+super.couleur+"\n" +
+                "                puissance: "+super.puissance+"\n" +
                 "                '}'");
     }
 

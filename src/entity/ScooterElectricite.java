@@ -10,9 +10,9 @@ public class ScooterElectricite extends Scooter{
     public void affichageCaracteristique() {
         System.out.println("" +
                 "\"ScooterElectricite{\" +\n" +
-                "                \"modele='\" + modele + '\\'' +\n" +
-                "                \", couleur='\" + couleur + '\\'' +\n" +
-                "                \", puissance=\" + puissance +\n" +
+                "                modele: "+super.modele+"\n" +
+                "                couleur: "+super.couleur+"\n" +
+                "                puissance: "+super.puissance+"\n" +
                 "                '}'");
     }
 

@@ -9,10 +9,10 @@ public class AutomobileEssence extends Automobile{
     @Override
     public void affichageCaracteristique() {
         System.out.println("" +
-                "\"AutomobileEssence{\" +\n" +
-                "                \"modele='\" + modele + '\\'' +\n" +
-                "                \", puissance=\" + puissance +\n" +
-                "                \", espace=\" + espace +\n" +
+                "\"AutomobileEssence{\"+\n" +
+                "                \"modele: "+super.modele+"\n" +
+                "                \"puissance: "+super.puissance +"\n" +
+                "                \"espace: "+super.espace +"\n" +
                 "                '}'");
     }
 
